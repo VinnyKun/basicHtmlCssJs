@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* use css vars for reusability */
+:root {
+    --lighter: deepskyblue;
+    --light: dodgerblue;
+    --dark: #000080;
+    --white: #ffffff;
+  }
+
+.navigationList {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: var(--lighter);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigationList li {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Gill Sans';
+}
+  
+.navigationList li:hover {
+    opacity: 0.75;
+    background-color: var(--light);
+    cursor: pointer;   
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans';
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px
+  }
